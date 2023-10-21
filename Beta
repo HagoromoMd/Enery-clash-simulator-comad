@@ -343,6 +343,13 @@ TELEPORTETab:AddButton({
     end    
 })
 
+TELEPORTETab:AddButton({
+    Name = "SHOP HALLOWEEN",
+    Callback = function()
+        game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-7532.58154296875, 22.947742462158203, 31.397153854370117))
+    end    
+})
+
 local Section11 = TELEPORTETab:AddSection({
     Name = "EVENTO HALLOWEEN"
 })
